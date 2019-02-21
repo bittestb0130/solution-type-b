@@ -31,7 +31,6 @@ public class Money {
 		Money result = new Money(amount / money.getAmount());
 		return result;
 	}
-	
 	public boolean equals(Money obj) {
 		if (obj.getAmount() == amount) {
 			return true;
